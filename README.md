@@ -166,6 +166,8 @@ body {
 
       <h2>About Me</h2>
       This html file is a format file for the website designing.
+      ![image](https://user-images.githubusercontent.com/15100077/212930031-efc55dd5-9151-4f4a-8322-53a45c7d58ee.png)
+      
       <p><img src="somephotos.jpg" alt="Trulli" width="300" height="200"></p>
       Hi there! My name is (insert name) and I am a (insert profession/career field). 
       I have always been passionate about (insert field of interest) and have been 
@@ -277,15 +279,11 @@ body {
 <div class="container">
   <div class="skills tableau"></div>
 </div>
-</p>
 
- </div>
-  </div>
   
   <div class="footer">
-    <h2>This website is managed by yourname or email id</h2>
+    <h4>This website is managed by yourname or email id</h4>
   </div>
 <!------Here main body ends  ------->
 </body>
 <!---------------------------Here html page ends ---------------------------------->
-</html>
