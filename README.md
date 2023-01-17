@@ -10,8 +10,30 @@
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  
 <style>
+
+* {box-sizing: border-box}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.python {width: 70%; background-color: #1e60a6;}
+.machine {width: 35%; background-color: #904231;}
+.gnuplot  {width: 50%; background-color: #7A9EA5;}
+.html {width: 45%; background-color: #808080;}
+.fortran {width: 55%; background-color:  #86C729;}
+.swift {width: 30%; background-color: #F2BA7B;}
+
   
 /* Style the body */
 body {
@@ -159,7 +181,42 @@ body {
     <div class="main">
       <h2>TITLE HEADING</h2>
       <h5>Add some subtitle, if needed</h5>
-      <p>Some text..</p>
+      <p>
+      <h1>Technical Skills<h1/>
+
+<h3>Programming Skills</h3>
+
+<p>Python</p>
+<div class="container">
+  <div class="skills python"></div>
+</div>
+
+<p>Machine-learning</p>
+<div class="container">
+  <div class="skills machine"></div>
+</div>
+
+<p>Gnuplot</p>
+<div class="container">
+  <div class="skills gnuplot"></div>
+</div>
+
+<p>Fortran</p>
+<div class="container">
+  <div class="skills fortran"></div>
+</div>
+
+<p>HTML</p>
+<div class="container">
+  <div class="skills html"></div>
+</div>
+
+<p>SWIFT</p>
+<div class="container">
+  <div class="skills swift"></div>
+</div>
+
+      </p>
       <br>
 
       <h2>TITLE HEADING</h2>
