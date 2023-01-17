@@ -214,12 +214,72 @@ body {
   <div class="skills swift"></div>
 </div>
 
-      </p>
-      <br>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
 
-      <h2>TITLE HEADING</h2>
-      <p>Some text..</p>
-    </div>
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.GIT {width: 65%; background-color: #0909F8;}
+.mathematica  {width: 80%; background-color: #7707f7;}
+.excel {width: 70%; background-color: #5C1E69;}
+.SQL {width: 70%; background-color: #2196F3;}
+.Powerbi {width: 60%; background-color: #f44336;}
+.tableau  {width: 50%; background-color:#66E6FF;}
+.latex  {width: 90%; background-color: #332390;}
+</style>
+</head>
+<body>
+
+<h3>Tools and Softwares </h3>
+
+<p>GIT</p>
+<div class="container">
+  <div class="skills GIT"></div>
+</div>
+
+<p>Mathematica</p>
+<div class="container">
+  <div class="skills Mathematica"></div>
+</div>
+
+<p>Latex</p>
+<div class="container">
+  <div class="skills latex"></div>
+</div>
+
+<p>MS Excel</p>
+<div class="container">
+  <div class="skills excel"></div>
+</div>
+
+<p>SQL</p>
+<div class="container">
+  <div class="skills SQL"></div>
+</div>
+
+<p>Power BI</p>
+<div class="container">
+  <div class="skills Powerbi"></div>
+</div>
+
+<p>Tableau</p>
+<div class="container">
+  <div class="skills tableau"></div>
+</div>
+</p>
+
+ </div>
   </div>
   
   <div class="footer">
