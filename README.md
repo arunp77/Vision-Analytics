@@ -169,10 +169,10 @@ body {
       ![image](https://user-images.githubusercontent.com/15100077/212930031-efc55dd5-9151-4f4a-8322-53a45c7d58ee.png)
       
       <p><img src="somephotos.jpg" alt="Trulli" width="300" height="200"></p>
-      Hi there! My name is (insert name) and I am a (insert profession/career field). 
-      I have always been passionate about (insert field of interest) and have been 
-      working in this industry for (insert number) years. In my free time, I enjoy 
-      (insert hobbies/interests). I am excited to meet new people and learn from their
+      Hi there! My name is Arun Kumar Pandey and I am a postdoctoral fellow at University of Delhi. 
+      I have always been passionate about math and physics and have been 
+      working in this field for almost 6 years. In my free time, I enjoy 
+      hiking, reading classic books and watching movies. I am excited to meet new people and learn from their
       experiences and perspectives. I believe that we can all learn and grow from each 
       other, and I am always open to hearing new ideas and approaches. I am a hard-working
       and reliable individual, and I am committed to delivering high-quality work in 
