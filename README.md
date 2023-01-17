@@ -179,8 +179,6 @@ body {
     </div>
 
     <div class="main">
-      <h2>TITLE HEADING</h2>
-      <h5>Add some subtitle, if needed</h5>
       <p>
       <h1>Technical Skills<h1/>
 
