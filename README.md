@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <!------Here main body starts  ------->
 <body>
 <div class="header">
