@@ -161,28 +161,32 @@ body {
     <a href="#" class="right">Link for something</a>
   </div>
   
-  <div class="row">
+ <div class="row">
     <div class="side">
 
-      <h2>About Me</h2>
-      This html file is a format file for the website designing.
-      ![image](https://user-images.githubusercontent.com/15100077/212930031-efc55dd5-9151-4f4a-8322-53a45c7d58ee.png)
-      
-      <p><img src="somephotos.jpg" alt="Trulli" width="300" height="200"></p>
-      Hi there! My name is Arun Kumar Pandey and I am a postdoctoral fellow at University of Delhi. 
-      I have always been passionate about math and physics and have been 
-      working in this field for almost 6 years. In my free time, I enjoy 
-      hiking, reading classic books and watching movies. I am excited to meet new people and learn from their
-      experiences and perspectives. I believe that we can all learn and grow from each 
-      other, and I am always open to hearing new ideas and approaches. I am a hard-working
-      and reliable individual, and I am committed to delivering high-quality work in 
-      everything I do. Thank you for taking the time to get to know me a little bit better.
-      <!-------Add your photos here, if you wish -->
-    </div>
+<h2>About Me</h2>
+This html file is a format file for the website designing.
 
-    <div class="main">
-      <p>
-      <h1>Technical Skills<h1/>
+<!-------     
+![image](https://user-images.githubusercontent.com/15100077/212930031-efc55dd5-9151-4f4a-8322-53a45c7d58ee.png)
+----->
+
+<img src="https://user-images.githubusercontent.com/15100077/212930031-efc55dd5-9151-4f4a-8322-53a45c7d58ee.png" alt="Arun"> 
+
+<p><img src="somephotos.jpg" alt="Trulli" width="300" height="200"></p>
+Hi there! My name is Arun Kumar Pandey and I am a postdoctoral fellow at University of Delhi. 
+I have always been passionate about math and physics and have been 
+working in this field for almost 6 years. In my free time, I enjoy 
+hiking, reading classic books and watching movies. I am excited to meet new people and learn from their
+experiences and perspectives. I believe that we can all learn and grow from each 
+other, and I am always open to hearing new ideas and approaches. I am a hard-working
+and reliable individual, and I am committed to delivering high-quality work in 
+everything I do. Thank you for taking the time to get to know me a little bit better.
+<!-------Add your photos here, if you wish -->
+</div>
+<div class="main">
+     <p>
+     <h1>Technical Skills<h1/>
 
 <h3>Programming Skills</h3>
 
