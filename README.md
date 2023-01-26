@@ -1,10 +1,3 @@
-<!------Here html page starts  ------->
-<!DOCTYPE html>
-<html lang="en">
-
-
-
-
 <!------Here main body starts  ------->
 <body>
 <div class="header">
