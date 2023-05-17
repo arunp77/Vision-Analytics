@@ -1,24 +1,9 @@
-<!------ <!DOCTYPE html> ---->
-<html lang="en">
-<!------Here main body starts  ------->
-<body>
-<div class="header">
-    <h1>About us</h1>
-    
-<!---src - Specifies the path to the image
-alt - Specifies an alternate text for the image
-<p>This is header subtitle.</p>--->
-  </div>
-<div class= “header-image”>
+# Business Analytics Solutions and Tech Support
+
 <img src="coding-vision.png" width="500" 
-     height="300">  
-</div>
-
-
 <!-------     
 ![image](https://user-images.githubusercontent.com/15100077/212930031-efc55dd5-9151-4f4a-8322-53a45c7d58ee.png)
 ----->
-# Business Analytics Solutions and Tech Support
         
 Welcome to our world! We are a dynamic company specializing in providing cutting-edge data analytics solutions and comprehensive tech support for businesses of all sizes.
         
