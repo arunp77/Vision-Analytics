@@ -10,7 +10,7 @@ alt - Specifies an alternate text for the image
 <p>This is header subtitle.</p>--->
   </div>
 <div class= “header-image”>
-<img src="coding-vision.png" width="200" 
+<img src="coding-vision.png" width="500" 
      height="300">  
 </div>
 
