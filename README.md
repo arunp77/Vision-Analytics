@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!------ <!DOCTYPE html> ---->
 <html lang="en">
 <!------Here main body starts  ------->
 <body>
@@ -14,7 +14,9 @@ alt - Specifies an alternate text for the image
      height="300">  
 </div>
 
-  <div class="navbar">
+  
+    
+    <div class="navbar">
     <a href="https://github.com/arunsinp">GitHub</a>
     <a href="#">Your codes</a>
     <a href="#">Photos</a>
