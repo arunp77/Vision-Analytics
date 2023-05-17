@@ -14,19 +14,6 @@ alt - Specifies an alternate text for the image
      height="300">  
 </div>
 
-  
-    
-    <div class="navbar">
-    <a href="https://github.com/arunsinp">GitHub</a>
-    <a href="#">Your codes</a>
-    <a href="#">Photos</a>
-    <a href="#" class="right">Link for something</a>
-  </div>
-  
- <div class="row">
-    <div class="side">
-
-<h2>About Me</h2>
 
 <!-------     
 ![image](https://user-images.githubusercontent.com/15100077/212930031-efc55dd5-9151-4f4a-8322-53a45c7d58ee.png)
