@@ -10,7 +10,7 @@ alt - Specifies an alternate text for the image
 <p>This is header subtitle.</p>--->
   </div>
 <div class= “header-image”>
-<img src="https://user-images.githubusercontent.com/15100077/212930031-efc55dd5-9151-4f4a-8322-53a45c7d58ee.png" width="200" 
+<img src="coding-vision.png" width="200" 
      height="300">  
 </div>
 
