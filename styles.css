@@ -5,6 +5,15 @@
   box-sizing: border-box;
 }
 
+/* CSS styles for the logo image */
+img.logo {
+  width: 100px; /* Adjust the width as desired */
+  height: auto; /* Automatically adjust the height while maintaining the aspect ratio */
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+  
 /* Global styles */
 body {
   font-family: Arial, sans-serif;
