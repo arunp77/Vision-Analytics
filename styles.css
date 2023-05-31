@@ -14,12 +14,26 @@ img.logo {
   left: 10px;
 }
   
-/* Global styles */
 body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  line-height: 1.6;
+}
+
+/* Styles for larger screens */
+@media only screen and (min-width: 768px) {
+  body {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #f4f4f4;
+  }
+}
+
+/* Styles for smaller screens */
+@media only screen and (max-width: 767px) {
+  body {
+    padding: 10px;
+  }
 }
 
 header {
