@@ -5,12 +5,13 @@
   box-sizing: border-box;
 }
 
+
+
 /* CSS styles for the logo image */
 img.logo {
   width: 100px; /* Adjust the width as desired */
   height: auto; /* Automatically adjust the height while maintaining the aspect ratio */
-  margin-top: 10px; /* Add margin-top to create space between the logo and header */
-  margin-left: 10px; /* Add margin-left to create space between the logo and header */
+  float: left;
 }
 
 /* Default styles */
