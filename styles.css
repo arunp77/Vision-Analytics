@@ -8,7 +8,7 @@
 
 /* CSS styles for the logo image */
 img.logo {
-  width: 100px; /* Adjust the width as desired */
+  width: 150px; /* Adjust the width as desired */
   height: auto; /* Automatically adjust the height while maintaining the aspect ratio */
   float: left;
 }
