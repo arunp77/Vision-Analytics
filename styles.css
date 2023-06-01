@@ -14,7 +14,7 @@ img.logo {
 
 /* Default styles */
 body {
-  min-height: 120vh; /* Set the minimum height of the body to 100% of the viewport height */
+  min-height: 100vh; /* Set the minimum height of the body to 100% of the viewport height */
   display: flex;
   flex-direction: column;
   max-width: 1400px;
