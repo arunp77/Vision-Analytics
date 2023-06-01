@@ -5,7 +5,6 @@
   box-sizing: border-box;
 }
 
-
 /* CSS styles for the logo image */
 img.logo {
   width: 150px; /* Adjust the width as desired */
@@ -89,4 +88,51 @@ footer {
   color: #fff;
   padding: 10px;
   text-align: center;
+}
+
+/* Additional styles for the individual items in the About section */
+
+.about-item {
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.about-item h3 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.about-item p {
+  color: #666;
+}
+
+.about-item-1 {
+  background-color: #FADBD8;
+}
+
+.about-item-2 {
+  background-color: #D4E6F1;
+}
+
+.about-item-3 {
+  background-color: #F9E79F;
+}
+
+.about-item-4 {
+  background-color: #D2B4DE;
+}
+
+.about-item-5 {
+  background-color: #A9DFBF;
+}
+
+.about-item-6 {
+  background-color: #FDEDEC;
+}
+
+.about-item-7 {
+  background-color: #EBF5FB;
 }
