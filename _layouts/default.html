@@ -14,61 +14,20 @@
   
   <nav>
     <ul>
-      <li><button class="tablink" onclick="openCity('Home', this, 'red')" id="defaultOpen">Home</button></li>
-      <li><button class="tablink" onclick="openCity('Expertise', this, 'green')">Expertise</button></li>
-      <li><button class="tablink" onclick="openCity('Services', this, 'blue')">Services</button></li>
-      <li><button class="tablink" onclick="openCity('About', this, 'orange')">About</button></li>
-      <li><button class="tablink" onclick="openCity('Contact', this, 'purple')">Contact</button></li>
+      <li><a href="{{ site.baseurl }}/index.html">Home</a></li>
+      <li><a href="{{ site.baseurl }}/expertise.html">Expertise</a></li>
+      <li><a href="{{ site.baseurl }}/services.html">Services</a></li>
+      <li><a href="{{ site.baseurl }}/about.html">About</a></li>
+      <li><a href="{{ site.baseurl }}/contact.html">Contact</a></li>
     </ul>
   </nav>
 
   <main>
-    <div id="Home" class="tabcontent">
-      <h1>Home</h1>
-      <p>Welcome to our website's home page.</p>
-    </div>
-
-    <div id="Expertise" class="tabcontent">
-      <h1>Expertise</h1>
-      <p>Learn more about our expertise in business analytics.</p>
-    </div>
-
-    <div id="Services" class="tabcontent">
-      <h1>Services</h1>
-      <p>Explore the services we offer for data analytics and tech support.</p>
-    </div>
-
-    <div id="About" class="tabcontent">
-      <h1>About</h1>
-      <p>Discover more about our company and team.</p>
-    </div>
-
-    <div id="Contact" class="tabcontent">
-      <h1>Contact</h1>
-      <p>Contact us for inquiries and support.</p>
-    </div>
+    {{ content }}
   </main>
 
   <footer>
     <p>&copy; 2023 My Website. All rights reserved.</p>
   </footer>
-
-  <script>
-    function openCity(cityName, elmnt, color) {
-      var i, tabcontent, tablinks;
-      tabcontent = document.getElementsByClassName("tabcontent");
-      for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-      }
-      tablinks = document.getElementsByClassName("tablink");
-      for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].style.backgroundColor = "";
-      }
-      document.getElementById(cityName).style.display = "block";
-      elmnt.style.backgroundColor = color;
-    }
-    // Get the element with id="defaultOpen" and click on it
-    document.getElementById("defaultOpen").click();
-  </script>
 </body>
 </html>
