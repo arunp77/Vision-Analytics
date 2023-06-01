@@ -146,3 +146,16 @@ footer {
 .about-item-7 {
   background-color: #EBF5FB;
 }
+
+.tablink:hover {
+  background-color: #777;
+  color: yellow; /* Change the text color on hover */
+}
+
+.tablink#defaultOpen:hover {
+  background-color: #555; /* Change the hover color for the default open tab */
+}
+
+.tablink#defaultOpen:hover {
+  color: white; /* Change the text color on hover for the default open tab */
+}
