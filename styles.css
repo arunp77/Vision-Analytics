@@ -12,11 +12,19 @@ img.logo {
   float: left;
 }
 
-/* Default styles */  
 body {
-  min-height: 130vh; /* Set the minimum height of the body to 100% of the viewport height */
+  min-height: 100vh; /* Set the minimum height of the body to 100% of the viewport height */
   display: flex;
   flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+main {
+  flex-grow: 1; /* Allow the main content to grow and fill the remaining vertical space */
 }
 
 /* Styles for larger screens */
@@ -24,7 +32,6 @@ body {
   body {
     max-width: 960px;
     margin: 0 auto;
-    background-color: #f4f4f4;
   }
 }
 
