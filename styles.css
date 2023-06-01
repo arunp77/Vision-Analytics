@@ -1,161 +1,79 @@
-/* Reset default styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+  /* Reset default styles */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
-/* CSS styles for the logo image */
-img.logo {
-  width: 150px; /* Adjust the width as desired */
-  height: auto; /* Automatically adjust the height while maintaining the aspect ratio */
-  float: left;
-}
+  /* CSS styles for the logo image */
+  img.logo {
+    width: 150px; /* Adjust the width as desired */
+    height: auto; /* Automatically adjust the height while maintaining the aspect ratio */
+    float: left;
+  }
 
-/* Default styles */
-body {
-  min-height: 100vh; /* Set the minimum height of the body to 100% of the viewport height */
-  display: flex;
-  flex-direction: column;
-  max-width: 1400px;
-  margin: 0 auto;
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
-}
-
-main {
-  flex-grow: 1; /* Allow the main content to grow and fill the remaining vertical space */
-}
-
-/* Styles for larger screens */
-@media only screen and (min-width: 768px) {
+  /* Default styles */
   body {
-    max-width: 960px;
+    min-height: 100vh; /* Set the minimum height of the body to 100% of the viewport height */
+    display: flex;
+    flex-direction: column;
+    max-width: 1400px;
     margin: 0 auto;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
   }
-}
 
-/* Styles for smaller screens */
-@media only screen and (max-width: 767px) {
-  body {
-    padding: 10px;
+  main {
+    flex-grow: 1; /* Allow the main content to grow and fill the remaining vertical space */
   }
-}
 
-header {
-  background-color: #0d95bb; /* Replace with your desired background color */
-  color: #530f0f;
-  padding: 20px;
-  text-align: center;
-  width: 100%; /* Set the width to 100% */
-  max-width: 1200px; /* Set a maximum width if desired */
-  margin: 0 auto; /* Center the header horizontally */
-}
+  /* Styles for larger screens */
+  @media only screen and (min-width: 768px) {
+    body {
+      max-width: 960px;
+      margin: 0 auto;
+    }
+  }
 
-nav {
-  background-color: #f4f4f4;
-  padding: 10px;
-}
+  /* Styles for smaller screens */
+  @media only screen and (max-width: 767px) {
+    body {
+      padding: 10px;
+    }
+  }
 
-nav ul {
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-}
+  header {
+    background-color: #0d95bb; /* Replace with your desired background color */
+    color: #530f0f;
+    padding: 20px;
+    text-align: center;
+    width: 100%; /* Set the width to 100% */
+    max-width: 1200px; /* Set a maximum width if desired */
+    margin: 0 auto; /* Center the header horizontally */
+  }
 
-nav ul li {
-  margin: 0 10px;
-}
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
 
-nav ul li a {
-  color: #333;
-  text-decoration: none;
-}
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
 
-section {
-  padding: 20px;
-  margin-bottom: 20px;
-  background-color: #fff;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
 
-h1,
-h2 {
-  color: #333;
-  text-align: center;
-}
-
-ul {
-  list-style-type: disc;
-  padding-left: 20px;
-  margin-bottom: 10px;
-}
-
-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
-  text-align: center;
-}
-
-/* Additional styles for the individual items in the About section */
-
-.about-item {
-  padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.about-item h3 {
-  color: #333;
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-.about-item p {
-  color: #666;
-}
-
-.about-item-1 {
-  background-color: #FADBD8;
-}
-
-.about-item-2 {
-  background-color: #D4E6F1;
-}
-
-.about-item-3 {
-  background-color: #F9E79F;
-}
-
-.about-item-4 {
-  background-color: #D2B4DE;
-}
-
-.about-item-5 {
-  background-color: #A9DFBF;
-}
-
-.about-item-6 {
-  background-color: #FDEDEC;
-}
-
-.about-item-7 {
-  background-color: #EBF5FB;
-}
-
-.tablink:hover {
-  background-color: #777;
-  color: yellow; /* Change the text color on hover */
-}
-
-.tablink#defaultOpen:hover {
-  background-color: #555; /* Change the hover color for the default open tab */
-}
-
-.tablink#defaultOpen:hover {
-  color: white; /* Change the text color on hover for the default open tab */
-}
+  .topnav a.split {
+    float: right;
+    background-color: #04AA6D;
+    color: white;
+  }

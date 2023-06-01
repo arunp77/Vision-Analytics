@@ -5,30 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }}</title>
   <link rel="stylesheet" href="{{ site.baseurl }}/styles.css">
-</head>
 
+</head>
 <body>
   <header>
     <img class="logo" src="{{ site.baseurl }}/images/logo.png" alt="Logo">
     <h1>Business Analytics Solutions and Tech Support</h1>
+    <div class="topnav">
+      <a href="{{ site.baseurl }}/home.html">Home</a>
+      <a href="{{ site.baseurl }}/expertise.html">Expertise</a>
+      <a href="{{ site.baseurl }}/services.html">Services</a>
+      <a href="{{ site.baseurl }}/about.html">About</a>
+      <a href="{{ site.baseurl }}/contact.html">Contact</a>
+    </div>
   </header>
-  
-  <nav>
-    <ul>
-      <li><a href="{{ site.baseurl }}/index.html">Home</a></li>
-      <li><a href="{{ site.baseurl }}/expertise.html">Expertise</a></li>
-      <li><a href="{{ site.baseurl }}/services.html">Services</a></li>
-      <li><a href="{{ site.baseurl }}/about.html">About</a></li>
-      <li><a href="{{ site.baseurl }}/contact.html">Contact</a></li>
-    </ul>
-  </nav>
-
   <main>
-    {{ content }}
+    {% block content %}{% endblock %}
   </main>
-
   <footer>
-    <p>&copy; 2023 My Website. All rights reserved.</p>
+    <p>&copy; 2023 Your Company. All rights reserved.</p>
   </footer>
 </body>
 </html>
