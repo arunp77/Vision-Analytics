@@ -14,9 +14,9 @@ img.logo {
 
 /* Default styles */  
 body {
-  max-width: 1200px;
-  margin: 0 auto;
-  font-family: Arial, sans-serif;
+  min-height: 100vh; /* Set the minimum height of the body to 100% of the viewport height */
+  display: flex;
+  flex-direction: column;
 }
 
 /* Styles for larger screens */
