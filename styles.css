@@ -9,14 +9,17 @@
 img.logo {
   width: 100px; /* Adjust the width as desired */
   height: auto; /* Automatically adjust the height while maintaining the aspect ratio */
-  float: left;
+  margin-top: 10px; /* Add margin-top to create space between the logo and header */
+  margin-left: 10px; /* Add margin-left to create space between the logo and header */
 }
 
-/* Default styles */  
+/* Default styles */
 body {
   max-width: 1200px;
   margin: 0 auto;
   font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
 }
 
 /* Styles for larger screens */
@@ -24,7 +27,6 @@ body {
   body {
     max-width: 960px;
     margin: 0 auto;
-    background-color: #f4f4f4;
   }
 }
 
@@ -65,6 +67,21 @@ nav ul li a {
 section {
   padding: 20px;
   margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+  color: #333;
+  text-align: center;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 10px;
 }
 
 footer {
