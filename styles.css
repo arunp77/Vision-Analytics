@@ -41,6 +41,9 @@ header {
   color: #530f0f;
   padding: 20px;
   text-align: center;
+  width: 100%; /* Set the width to 100% */
+  max-width: 1200px; /* Set a maximum width if desired */
+  margin: 0 auto; /* Center the header horizontally */
 }
 
 nav {
