@@ -1,9 +1,4 @@
 # Business Analytics Solutions and Tech Support
-
-<img src="coding-vision.png" width="500" 
-<!-------     
-![image](https://user-images.githubusercontent.com/15100077/212930031-efc55dd5-9151-4f4a-8322-53a45c7d58ee.png)
------>
         
 Welcome to our world! We are a dynamic company specializing in providing cutting-edge data analytics solutions and comprehensive tech support for businesses of all sizes.
         
