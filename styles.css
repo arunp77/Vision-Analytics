@@ -60,7 +60,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #823232;
+  color: #333;
   text-decoration: none;
 }
 
@@ -74,7 +74,7 @@ section {
 
 h1,
 h2 {
-  color: #712929;
+  color: #333;
   text-align: center;
 }
 
