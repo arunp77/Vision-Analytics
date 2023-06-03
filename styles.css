@@ -18,7 +18,7 @@ body {
   margin: 0 auto;
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
-  color: #88ba13;
+  color: #333;
 }
 
 /* Styles for larger screens */
@@ -38,7 +38,7 @@ body {
 
 header {
   background-color: #0d95bb; /* Replace with your desired background color */
-  color: #22979b;
+  color: #530f0f;
   padding: 20px;
   text-align: center;
   width: 100%; /* Increase the width to occupy the entire available space */
