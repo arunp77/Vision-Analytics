@@ -41,6 +41,7 @@ header {
   color: #530f0f;
   padding: 20px;
   text-align: center;
+  width: 100%; /* Increase the width to occupy the entire available space */
 }
 
 nav {
@@ -182,4 +183,3 @@ button[type="submit"] {
 button[type="submit"]:hover {
   background-color: #0b7285;
 }
- 
